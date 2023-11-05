@@ -34,8 +34,8 @@ Digite o nome da coluna: preço
 
 ## Fotos
 
-Gráfico em Pizza (Logradouro)
+### Gráfico em Pizza (Logradouro)
 ![1](/assets/1.png)
 
-Gráfico em Barra (Preço, Quarto, Banheiro, Estacionamento)
+### Gráfico em Barra (Preço, Quarto, Banheiro, Estacionamento)
 ![2](/assets/2.png)

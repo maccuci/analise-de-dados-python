@@ -73,6 +73,14 @@ def gerar_grafico() -> None:
                 mostrar_histograma(dados_imoveis, coluna, coluna_input)
             elif tipo_coluna == "object":
                 mostrar_grafico_pizza(dados_imoveis, coluna, coluna_input)
+            elif tipo_coluna == "object" and coluna_input == "endereço":
+                contagem_valores = dados_imoveis[coluna].value_counts()
+                plt.figure(figsize=(10, 6))
+                contagem_valores.plot(kind='bar', color='blue')
+                plt.xlabel(coluna)
+                plt.ylabel('Contagem')
+                plt.title(f'Distribuição de {coluna_input.capitalize()}')
+                plt.show()
         else:
             print(f"A coluna '{coluna}' não foi encontrada nos dados.")
     else:
