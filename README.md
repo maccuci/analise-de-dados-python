@@ -24,10 +24,18 @@ Ele mostrar as opções diponíveis de colunas para serem analisadas, e depois i
 
 ## Passo 3
 
-Exemplo do output e input esperado:
+Exemplo do input e output esperado:
 
 ```bash
 Colunas disponíveis para análise:
 ['preço', 'endereço', 'logadouro', 'quarto', 'banheiro', 'estacionamento']
 Digite o nome da coluna: preço
 ```
+
+## Fotos
+
+Gráfico em Pizza (Logradouro)
+![1](/assets/1.png)
+
+Gráfico em Barra (Preço, Quarto, Banheiro, Estacionamento)
+![2](/assets/2.png)
